@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8">
+    <title>Secured Index</title>
+  </head>
+  <body>
+    <h1>secured index page</h1>
+    <p>Your user id is [<span th:text="${userId}">xxx</span>]</p>
+    <form th:action="@{/logout}" th:method="post">
+      <button>Logout</button>
+    </form>
+  </body>
+</html>

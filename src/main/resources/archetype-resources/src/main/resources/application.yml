@@ -1,0 +1,7 @@
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+mybatis:
+  mapper-locations: classpath:repository/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

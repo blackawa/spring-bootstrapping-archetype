@@ -1,0 +1,2 @@
+INSERT INTO USERS (EMAIL, PASSWORD) VALUES
+  ('test@example.com', '$2a$10$DWTnzJDokGNiGxaym1w77OoXAWxNplTLjYyxGoKzEJM52j7hcsJoG');
