@@ -4,6 +4,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * To generate password hash for test data, run this main class.
+ * Remove if you do not need.
  */
 public class PasswordHashGenerator {
     public static void main(String[] args) {
